@@ -5,13 +5,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
+    <title>Web API Code Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="#view-high-scores">View High Scores</a>
+        </nav>
+        <div class="time-text">
+            <h2>Time:</h2>
+            <div class="timer-count">0</div>
+        </div>
+    </header>
+    <section id="instructions">
+        <h1>JavaScript Quiz</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor sed repudiandae quibusdam tempora ea praesentium impedit consectetur a ullam totam vitae incidunt atque saepe asperiores, hic enim, repellendus laudantium laboriosam repellat labore natus in inventore. Ullam perferendis accusantium quam cumque nemo, quis fuga nisi dolores fugit quod labore excepturi.</p>
+        <button id="startBtn">Start</button>
+    </section>
+    <main id="quiz">
+        <h1 id="questionHeader"></h1>
+        <ul id="answerList"></ul>
+    </main>
 
 
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
