@@ -1,0 +1,169 @@
+body {
+    padding: .5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    background-color: #FFF8DE;
+}
+
+#content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    width: 500px;
+    height: 700px;
+}
+
+#start-btn {
+    background-color: #99A98F;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: #FFF8DE;
+    border: 2px solid black;
+}
+
+#instructions {
+    text-align: center;
+}
+
+#instructions ul li {
+    border: 3px solid black;
+    line-height: 150%;
+    margin: 3%;
+    cursor: pointer;
+    border-radius: 5px 5px;
+}
+
+#instructions ul :hover {
+    list-style-type: none;
+    background-color: #C1D0B5;
+    color: black;
+}
+
+#remainingTime {
+    float: right;
+}
+
+#startOver {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#99A98F;
+    padding: 10px;
+    font-size: 20px;
+    color: #FFF8DE;
+    width: auto;
+    border: 3px solid black;
+}
+
+#highScore {
+    border: none;
+}
+
+#clear {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99A98F;
+    padding: 10px;
+    font-size: 20px;
+    color: #FFF8DE;
+    border: 3px solid black;
+}
+
+button {
+    border-radius: 5px 5px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: #99A98F;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: #FFF8DE;
+    border: 2px solid black;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+    background-color: #99A98F;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: #FFF8DE;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 4px double #99A98F;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    #wrapper {
+        position: absolute;
+        left: 17%;
+    }
+    #goBack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #clear {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #wrapper {
+        padding-top: 50%;
+    }
+    #questionsDiv {
+        margin-right: 13%;
+        font-size: 150%;
+    }
+    #currentTime {
+        margin-right: 75%;
+    }
+    #goBack {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
